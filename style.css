@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: #000;
+}
+
+.navbar 
+{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 80%;
+	top: 4%;
+	padding: 20px 30px;
+	height: 20px;
+}
+.navbar ul 
+{
+	display: flex;
+	gap: 30px;
+}
+.navbar ul li 
+{
+	list-style: none;
+}
+.navbar ul li a 
+{
+	font-size: 1.5em;
+	color: #f1f1f1;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.logo 
+{
+	font-size: 0.5em;
+	color: #fff;
+	padding: 20px 20px;
+	text-transform: uppercase;
+  	font-style: bold;
+  	letter-spacing: 0.05em;
+  	font-family: "Montserrat", sans-serif;
+  	font-weight: 600;
+}
+.boxes
+{
+	position: absolute;
+	top: 40%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	color: #fff;
+  	font-family: "Montserrat", sans-serif;
+  	font-weight: 500;
+  	font-size: 0.7em;
+}
+.boxes h2 
+{
+	padding: 15px 10px;
+}
+.boxes .liked
+{
+	display: flex;
+	height: 50px;
+	width: 250px;
+	outline: 1px solid white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+	text-align: center;
+}
+.boxes .podcasts
+{
+	display: flex;
+	height: 50px;
+	width: 250px;
+	outline: 1px solid white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+
+.boxes .edit
+{
+	display: flex;
+	height: 50px;
+	width: 250px;
+	outline: 1px solid white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+
+.boxes .tamil
+{
+	display: flex;
+	height: 50px;
+	width: 250px;
+	outline: 1px solid white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
+.boxes a
+{
+	text-decoration: none;
+	color: #fff;
+}
